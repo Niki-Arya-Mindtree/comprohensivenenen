@@ -45,6 +45,8 @@ public class Service implements DocMethodInterface{
 		tempmd.setSalary(md.getSalary());
 		tempmd.setSpecialist(md.getSpecialist());
 		repos.saveAndFlush(tempmd);	
+		
+		
 	}
 	
 	
